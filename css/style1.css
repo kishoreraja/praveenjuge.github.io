@@ -1,9 +1,16 @@
-.silogo{
-    height: 60px;
-    width: 360px;
-    line-height: 115px;
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    
+}
+
+.navbar .navbar-collapse {
     text-align: center;
-/*border: 1px solid red;*/
+}
+
+.silogo{
+    height: 100px;
+/*    border: 1px solid red;*/
     padding: 0px;
 }
 
@@ -42,6 +49,7 @@ hr{
     text-align: center;
     background-color: #ECF0F1;
     border-radius: 2px;
+    margin-bottom: 10px;
 }
 
 .sibox p{
@@ -77,7 +85,7 @@ hr{
 .sibtn:active,
 .sibtn.active {
     color: white;
-    background: #D35400;
+/*    background: #D35400;*/
 }
 
 .sibtn1{
