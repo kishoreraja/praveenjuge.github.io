@@ -1,3 +1,8 @@
+.adminsec {
+    background-color: #ecf0f1;
+    padding: 120px 0px;
+}
+
 .sihban {
     min-height: 105px;
     background-color: #fff;
@@ -8,11 +13,6 @@
     font-size: 100px;
     text-align: center;
     color: dimgray;
-}
-
-.contactsec {
-    background-color: #ecf0f1;
-    padding: 120px 0px;
 }
 
 .sep {

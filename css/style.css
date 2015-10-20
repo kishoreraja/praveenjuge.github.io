@@ -30,6 +30,14 @@ a.active {
     color: white;
 }
 
+.current {
+    background-color: black;
+}
+
+.navbar-default .navbar-nav > li.current > a:hover {
+    color: white;
+}
+
 .navbar .navbar-nav {
     letter-spacing: 2px;
 }
@@ -47,6 +55,7 @@ a.active {
     /*    border: 1px solid red;*/
     margin: 0 auto;
     display: block;
+    margin-top: 15px;
 }
 
 .silogo img {
@@ -77,6 +86,7 @@ footer .footer-below {
 }
 
 .siboxf {
+    margin-top: 10px;
     color: azure;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.2);
@@ -88,6 +98,7 @@ footer .footer-below {
     font-weight: 800;
     color: brown;
     padding-top: 5px;
+    margin-bottom: 15px;
     display: block;
     border-bottom: 2px solid brown;
 }
@@ -99,6 +110,7 @@ footer .footer-below {
 
 .siboxf ul {
     padding: 0px;
+    padding-top: 10px;
 }
 
 .siboxf ul li {
@@ -106,6 +118,18 @@ footer .footer-below {
     display: inline-block;
     font-size: 40px;
     padding: 10px 15px;
+}
+
+.siboxf a {
+    color: brown;
+}
+
+.siboxf ul li a:hover {
+    color: white;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
 }
 
 
