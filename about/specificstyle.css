@@ -1,4 +1,4 @@
-.adminsec {
+.aboutsec {
     background-color: #ecf0f1;
     padding: 120px 0px;
 }
@@ -19,20 +19,7 @@
     padding-bottom: 20px;
 }
 
-.boxleft {
+.sifirst {
     font-size: 22px;
-    line-height: 6.5em;
-    text-align: center;
-    color: #2c3e50;
-    min-height: 150px;
-    border-right: 2px blue solid;
-}
-
-.boxright {
-    color: white;
-    background-color: #34495E;
-    font-size: 24px;
-    text-align: center;
-    line-height: 5.5em;
-    min-height: 150px;
+    text-indent: 40px;
 }

@@ -1,6 +1,6 @@
-.strategysec {
+.servicesec {
     background-color: #ecf0f1;
-    padding: 120px 0px;
+    padding: 140px 0px;
 }
 
 .sihban {
@@ -10,7 +10,7 @@
 }
 
 .sihhead {
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
     color: dimgray;
 }
@@ -19,13 +19,11 @@
     padding-bottom: 20px;
 }
 
-.sihead1 {
-    font-size: 22px;
-    color: #99CC99;
-}
-
-.sihead1 p {
+.isbox {
     font-size: 18px;
     color: black;
-    padding: 10px 0px;
+    text-align: center;
+    border: 1px solid brown;
+    padding: 30px;
+    margin: 15px 0px;
 }
