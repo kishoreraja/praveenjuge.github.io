@@ -1,0 +1,104 @@
+/*Page Content*/
+
+.pjhello {
+    font-size: 80px;
+    padding: 40px 0px;
+}
+
+.pjone {
+    font-size: 30px;
+    text-indent: 50px;
+    margin: 60px 0px;
+}
+
+.pjtwo {
+    font-size: 90px;
+    text-align: center;
+}
+
+.pjthree {
+    font-size: 60px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.pjfour {
+    font-size: 68px;
+    padding: 50px 0px;
+    color: #34495E;
+    text-align: center;
+}
+
+.pjfive {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.pjfive ul {
+    list-style-type: none;
+    padding: 30px 0px;
+}
+
+.pjbtnsec {
+    padding: 50px 0px;
+}
+
+.pjbtn {
+    font-size: 36px;
+    background-color: transparent;
+    border: 6px solid #27AD60;
+    border-radius: 0px;
+    margin: 40px 0px;
+    padding: 10px 0px;
+    color: black;
+}
+
+.pjbtn:hover,
+.pjbtn:focus,
+.pjbtn:active {
+    border-color: #27AD60;
+    background-color: #27AD60;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.pjsix {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.pjseven {
+    font-size: 38px;
+    text-align: center;
+}
+
+.pjseven p {
+    padding-top: 20px;
+}
+
+.pjeight {
+    text-align: center;
+    color: #27AD60;
+    font-size: 18px;
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 48em) {
+    .pjtwo {
+        font-size: 50px;
+    }
+    .pjthree {
+        font-size: 30px;
+    }
+    .pjfour {
+        font-size: 50px;
+    }
+    .pjbtn {
+        font-size: 16px;
+    }
+}

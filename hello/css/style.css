@@ -1,0 +1,180 @@
+/*General*/
+
+body {
+    color: #000000;
+    background-color: #f0f0f0;
+    font-family: 'Elegant Lux Mager', sans-serif;
+}
+
+::-moz-selection {
+    background: #c0392b;
+}
+
+::selection {
+    background: #c0392b;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    outline: 0;
+    color: white;
+    -webkit-transition: color .3s ease-in-out;
+    -moz-transition: color .3s ease-in-out;
+    -o-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    outline: 0;
+    color: #313131;
+    text-decoration: none;
+}
+
+.pjgrid {
+    margin-left: 40px;
+}
+
+.green {
+    color: #27AD60;
+}
+
+.dullgreen {
+    color: #A8C8B2;
+}
+
+.red {
+    color: #c0392b;
+}
+
+hr {
+    border-top: 1px solid #27ad60;
+}
+
+
+/*Logo*/
+
+.pjlogo {
+    margin: 10px;
+    height: 125px;
+    line-height: 115px;
+    text-align: center;
+    /*    border: 1px solid red;*/
+}
+
+.pjlogo img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.pjlogo1 {
+    height: 60px;
+    text-align: center;
+}
+
+.pjlogo1 img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+
+/*Navigation*/
+
+.pjnav {
+    float: right;
+    position: fixed;
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 32px;
+    background-color: #2c3e50;
+}
+
+.pjnavul ul {
+    padding: 0px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.pjnavul li {
+    padding-bottom: 16px;
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pjnavul a:hover,
+.pjsocial a:hover {
+    color: #c0392b;
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out
+}
+
+.pjsocial {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.pjsocial a {
+    color: #7f8c8d;
+}
+
+.pjsocial ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.pjsocial li {
+    font-size: 50px;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 68em) {
+    .pjgrid {
+        margin-left: 10px;
+    }
+    .pjnav {
+        padding: 10px;
+        float: none;
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 0;
+        min-height: 330px;
+    }
+    .pjnavul ul {
+        background-color: #2c3e50;
+        width: 100%;
+        position: relative;
+    }
+    .pjnavul li {
+        float: left;
+        width: 25%;
+    }
+    .pjsocial ul {
+        width: 100%;
+        text-align: center;
+        position: relative;
+    }
+    .pjsocial li {
+        float: left;
+        width: 25%;
+    }
+}
+
