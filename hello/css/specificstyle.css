@@ -6,7 +6,6 @@
 }
 
 .pjone {
-    font-size: 30px;
     text-indent: 50px;
     margin: 60px 0px;
 }
@@ -30,7 +29,6 @@
 }
 
 .pjfive {
-    font-size: 30px;
     text-align: center;
     padding: 30px 0px;
 }
@@ -57,7 +55,7 @@
 .pjbtn:hover,
 .pjbtn:focus,
 .pjbtn:active {
-    border-color: #27AD60;
+    color: #fff;
     background-color: #27AD60;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -68,7 +66,6 @@
 .pjsix {
     padding-top: 15px;
     padding-bottom: 50px;
-    font-size: 32px;
     text-align: center;
 }
 
@@ -96,9 +93,46 @@
         font-size: 30px;
     }
     .pjfour {
-        font-size: 50px;
+        font-size: 40px;
     }
     .pjbtn {
         font-size: 16px;
+    }
+    .pjeight {
+        font-size: 10px;
+    }
+    .pjlogo1 {
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 28em) {
+    body {
+        font-size: 10px;
+    }
+    .pjnavul ul {
+        font-size: 16px;
+    }
+    .pjtwo {
+        font-size: 20px;
+    }
+    .pjthree {
+        font-size: 14px;
+    }
+    .pjfour {
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    .pjfive {
+        padding: 10px 0px;
+    }
+    .pjseven {
+        font-size: 16px;
+    }
+    .pjeight {
+        font-size: 8px;
+    }
+    .pjlogo1 {
+        height: 20px;
     }
 }
