@@ -1,0 +1,47 @@
+
+/*
+Theme Name: Blog of praveenjuge
+Theme URI: http://
+Description: Twenty Fifteen child theme with new post types
+Author: Praveen Juge
+Version: 0.0.1
+Template: pjblog
+Tags: two-columns, right-sidebar, custom-header, custom-colors, custom-background, custom-menu, theme-options, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style
+*/
+
+/*Page Content*/
+
+body{min-height: 1200px;}
+
+
+
+.content-area a{
+    color: #c0392b;
+}
+
+.content-area a:hover{
+    color: #000;
+}
+
+.pjhello {
+    font-size: 50px !important;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.entry-title{
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+
+.post{
+    font-size: 24px;
+    padding: 20px;
+    margin: 40px 0px;
+}
+
+.more-link{
+    border:2px solid #c0392b;
+    padding: 0px 5px;
+    float: right;
+}
