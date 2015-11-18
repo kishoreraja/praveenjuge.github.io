@@ -5,6 +5,7 @@ body {
     color: #000000;
     background-color: #f0f0f0;
     font-family: 'elegant_luxmager', sans-serif;
+    font-weight: 500;
 }
 
 ::-moz-selection {
@@ -47,6 +48,10 @@ a:focus {
 
 .red {
     color: #c0392b;
+}
+
+.red::selection {
+    background: #27AD60;
 }
 
 hr {

@@ -1,9 +1,42 @@
 /*Page Content*/
 
-body{min-height: 1200px;}
+body{
+    min-height: 1200px;
+}
+
+a, a:visited{
+    
+}
 
 .pjhello {
     font-size: 80px;
     padding: 40px 0px;
     text-align: center;
+}
+
+.pjbox {
+    padding: 0px 15px;
+    background-color: #c0392b;
+    color: white;
+}
+
+.pjboxi {
+    min-height: 400px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image:url(../images/2.jpg);
+}
+
+.pjboxt{
+    text-align: center;
+}
+
+.pjtit{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.pjtit a{
+     color:  #c0392b;
 }
