@@ -1,0 +1,64 @@
+body { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-size: 24px;
+  min-height: 700px;
+}
+
+.sd{
+    min-height: 680px;
+    background-color: rgba(0,0,0,0.8);
+    margin-top: 80px;
+}
+
+.jsname{
+    text-align: center;
+    font-size: 60px;
+    margin: 40px 0px;
+}
+
+.jspic{
+    padding-top: 40px;
+}
+
+.mask {
+    width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+.jspic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jsth{
+    padding: 50px 130px;
+}
+
+.jsdes{
+    text-indent: 90px;
+    padding: 10px 40px;
+}
+
+@media screen and (max-width: 62em) {
+    
+.jsth{
+    padding: 50px 50px;
+}    
+}
+
+@media screen and (max-width: 28em) {
+    body { 
+  font-size: 18px;
+}
+    
+}
+

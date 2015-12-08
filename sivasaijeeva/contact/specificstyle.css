@@ -1,0 +1,60 @@
+body { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-size: 24px;
+    min-height: 900px;
+}
+
+.sd{
+    text-align: center;
+    min-height: 880px;
+    background-color: rgba(0,0,0,0.8);
+    margin-top: 80px;
+}
+
+.jsname{
+    text-align: center;
+    font-size: 60px;
+    margin: 40px 0px;
+}
+
+.jscontent{
+     text-align: center;   
+}
+
+.jsid{
+    text-align: center;
+    font-size: 34px;
+    padding: 50px 0px;
+}
+.soc{
+    font-size: 35px;
+    list-style-type: none;
+    padding-top: 80px;
+}
+
+.soc li{
+    display: inline-block;
+    margin: 40px;
+}
+
+.soc a{
+    color: brown;
+}
+
+.soc a:hover{
+    color: dimgrey;
+    
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.jsad{
+    padding: 50px 80px;
+}
