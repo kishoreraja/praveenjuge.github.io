@@ -35,13 +35,14 @@ body {
     margin: 25px;
 }
 
-.soc a{
+a{
     color: brown;
 }
 
-.soc a:hover{
+a:hover,
+a:focus{
     color: dimgrey;
-    
+    text-decoration: none;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -49,5 +50,5 @@ body {
 }
 
 .jsad{
-    padding: 30px 80px;
+    padding: 20px 80px;
 }
