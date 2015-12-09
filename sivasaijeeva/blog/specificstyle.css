@@ -86,11 +86,34 @@ body {
         .blogn{
     font-size: 60px;
 }
+    
+     
+    .ctent{
+    padding: 30px 0px;
+    font-size: 18px;
+}
+    
+    blogdes{
+    padding: 40px 10px;
+}
 }
 
 @media screen and (max-width: 28em) {
     .blogn{
-    font-size: 30px;
+    font-size: 20px;
+}
+    
+    .cname{
+    padding: 10px 0px;
+    font-size: 20px;
+}
+    .blogdes{
+    padding: 20px 10px;
+        font-size: 20px;
+}
+    .ctent{
+    padding: 30px 0px;
+    font-size: 18px;
 }
     
 }

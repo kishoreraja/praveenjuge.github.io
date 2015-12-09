@@ -26,6 +26,7 @@ body {
     padding: 20px 0px;
 }
 .soc{
+      padding: 0px;
     font-size: 35px;
     list-style-type: none;
 }
@@ -51,4 +52,37 @@ a:focus{
 
 .jsad{
     padding: 20px 80px;
+}
+
+@media screen and (max-width: 62em) {
+    
+  
+}
+
+@media screen and (max-width: 28em) {
+    body { 
+  font-size: 18px;
+}
+    .jsname{
+    font-size: 24px;
+}
+    .soc{
+      
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.soc li{
+    display: inline-block;
+    margin: 7px;
+}
+    
+    .jsad{
+    padding: 20px 0px;
+}
+    
+    .jsid{
+    font-size: 24px;
+    padding: 20px 0px;
+}
 }
