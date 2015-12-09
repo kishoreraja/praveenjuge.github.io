@@ -1,5 +1,6 @@
 body {
   font-family: 'elegant_luxmager', sans-serif;
+    background-color: #000000;
 }
 
 /* Navigation */
@@ -81,4 +82,12 @@ font-weight: 900;
     #tf-menu a.navbar-brand {
 font-size: 20px;
 }
+}
+
+@media screen and (max-width: 28em) {
+
+    #tf-menu a.navbar-brand {
+font-size: 16px;
+}
+    
 }
