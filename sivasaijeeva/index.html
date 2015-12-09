@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html  lang="en" class="no-js">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="elegentfont/stylesheet.min.css" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/mystyle.css" rel="stylesheet" type="text/css">
-    <link href="css/parallax.css" rel="stylesheet" type="text/css">
+    <link href="css/temp.css" rel="stylesheet" type="text/css">
+
+	<script src="js/modernizr-custom.js"></script>
+
 </head>
 
 <body>
@@ -38,107 +41,41 @@
       </div>
     </nav>
   
-  
-<!--
-  <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="active item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-    </div>
-    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-</div>
--->
+		<div class="vs-slider">
 
-<div class="container-fluid nopadding">
-  <section class="background">
-    <div class="content-wrapper">
-      <p class="content-title">Siva Sai Photography</p>
-      <p class="content-subtitle">Scroll down the page with mouse wheel</p>
-    </div>
-  </section>
-  <section class="background">
-    <div class="content-wrapper">
+			<div class="vs-section active">
+				<h2>SIVA SAI PHOTOGRAPHY</h2>
+			</div>
+			<div class="vs-section">
+				
+			</div>
+			<div class="vs-section">
+				
+			</div>
+			<div class="vs-section">
+				
+			</div>
+			<div class="vs-section">
+				
+			</div>
 
-    </div>
-  </section>
-  <section class="background">
-    <div class="content-wrapper">
+			<nav>
+				<ul class="vs-vertical-nav">
+					<li><a href="#" class="vs-prev">Next</a></li>
+					<li><a href="#" class="vs-next">Prev</a></li>
+				</ul>
+			</nav>
 
-    </div>
-  </section>
-</div>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script> 
-<script src="js/jquery.min.js"></script>    
-<script src="js/bootstrap.min.js"></script>
+		</div>
 
-<script>
-var ticking = false;
-var isFirefox = /Firefox/i.test(navigator.userAgent);
-var isIe = /MSIE/i.test(navigator.userAgent) || /Trident.*rv\:11\./i.test(navigator.userAgent);
-var scrollSensitivitySetting = 30;
-var slideDurationSetting = 800;
-var currentSlideNumber = 0;
-var totalSlideNumber = $('.background').length;
-function parallaxScroll(evt) {
-    if (isFirefox) {
-        delta = evt.detail * -120;
-    } else if (isIe) {
-        delta = -evt.deltaY;
-    } else {
-        delta = evt.wheelDelta;
-    }
-    if (ticking != true) {
-        if (delta <= -scrollSensitivitySetting) {
-            ticking = true;
-            if (currentSlideNumber !== totalSlideNumber - 1) {
-                currentSlideNumber++;
-                nextItem();
-            }
-            slideDurationTimeout(slideDurationSetting);
-        }
-        if (delta >= scrollSensitivitySetting) {
-            ticking = true;
-            if (currentSlideNumber !== 0) {
-                currentSlideNumber--;
-            }
-            previousItem();
-            slideDurationTimeout(slideDurationSetting);
-        }
-    }
-}
-function slideDurationTimeout(slideDuration) {
-    setTimeout(function () {
-        ticking = false;
-    }, slideDuration);
-}
-var mousewheelEvent = isFirefox ? 'DOMMouseScroll' : 'wheel';
-window.addEventListener(mousewheelEvent, _.throttle(parallaxScroll, 60), false);
-function nextItem() {
-    var $previousSlide = $('.background').eq(currentSlideNumber - 1);
-    $previousSlide.css('transform', 'translate3d(0,-130vh,0)').find('.content-wrapper').css('transform', 'translateY(40vh)');
-    currentSlideTransition();
-}
-function previousItem() {
-    var $previousSlide = $('.background').eq(currentSlideNumber + 1);
-    $previousSlide.css('transform', 'translate3d(0,30vh,0)').find('.content-wrapper').css('transform', 'translateY(30vh)');
-    currentSlideTransition();
-}
-function currentSlideTransition() {
-    var $currentSlide = $('.background').eq(currentSlideNumber);
-    $currentSlide.css('transform', 'translate3d(0,-15vh,0)').find('.content-wrapper').css('transform', 'translateY(15vh)');
-    ;
-}
-</script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/init.js"></script>
+
+        <script src="js/jquery.min.js"></script>    
+        <script src="js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.ui.min.js"></script>
+		<script src="js/vertical-slider.js"></script>
+		<script src="js/main.js"></script>
+
 </body>
 </html>

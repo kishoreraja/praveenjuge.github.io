@@ -2,10 +2,6 @@ body {
   font-family: 'elegant_luxmager', sans-serif;
 }
 
-.nopadding{
-    padding: 0px;
-}
-
 /* Navigation */
 #tf-menu {
 	transition: all 0.8s;
@@ -61,72 +57,9 @@ font-weight: 900;
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
 	}
-
-
-/*carousel*/
-
-.carousel-fade .carousel-inner .item {
-  -webkit-transition-property: opacity;
-          transition-property: opacity;
+.navbar-collapse{
+    border-top: 0px;
 }
-.carousel-fade .carousel-inner .item,
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  opacity: 0;
-}
-.carousel-fade .carousel-inner .active,
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-  opacity: 1;
-}
-.carousel-fade .carousel-inner .next,
-.carousel-fade .carousel-inner .prev,
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-}
-.carousel-fade .carousel-control {
-  z-index: 2;
-}
-html,
-body,
-.carousel,
-.carousel-inner,
-.carousel-inner .item {
-  height: 100%;
-}
-.item:nth-child(1) {
-  background-image: url(../images/1.jpg);
-    background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-}
-.item:nth-child(2) {
-  background-image: url(../images/2.jpg);
-    background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-}
-.item:nth-child(3) {
-  background-image: url(../images/3.jpg);
-    background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-}
-.item:nth-child(4) {
-  background-image: url(../images/4.jpg);
-    background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-}
-
-
 
 @media (max-width: 603px){
 #tf-menu.navbar-default {
