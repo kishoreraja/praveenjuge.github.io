@@ -82,6 +82,12 @@ font-weight: 900;
     #tf-menu a.navbar-brand {
 font-size: 20px;
 }
+    #tf-menu.navbar-default .navbar-nav > li > a {
+
+    margin-left:0px;
+
+}
+
 }
 
 @media screen and (max-width: 28em) {
