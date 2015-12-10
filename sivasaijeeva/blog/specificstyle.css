@@ -6,44 +6,10 @@ body {
 
 .jsbentry{margin: 0px;}
 
-#blog {
-   background: #1F1F1F url(../images/c.jpg) no-repeat center center fixed;
-   background-size: cover !important;
-   -webkit-background-size: cover !important;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-   position: relative;
-   min-height: 800px;
-   width: 100%;
-   overflow:hidden;
-}
-#content1 {
-   background: #1F1F1F url(../images/net.jpg) no-repeat center center fixed;
-   background-size: cover !important;
-   -webkit-background-size: cover !important;
-    -moz-background-size: cover;
-  -o-background-size: cover;
-   position: relative;
-   min-height: 400px;
-   width: 100%;
-   overflow: hidden;
-}
-#content2 {
-   background: #1F1F1F url(../images/tabak-maaz.jpg) no-repeat center center fixed; 
-   background-size: cover !important;
-   -webkit-background-size: cover !important;
-    -moz-background-size: cover;
-  -o-background-size: cover;
-   position: relative;
-   min-height: 400px;
-   width: 100%;
-   overflow: hidden;
-}
-
 .blogn{
     text-transform: uppercase;
     font-size: 100px;
-    padding-top: 400px;
+    padding-top: 250px;
 }
 .blogsn{
     color: firebrick;
