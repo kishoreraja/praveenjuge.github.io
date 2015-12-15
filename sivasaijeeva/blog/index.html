@@ -24,9 +24,7 @@
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="../">Siva Sai Photography</a>
         </div>
@@ -42,19 +40,13 @@
       </div>
     </nav>
     
-  <div class="img-holder blog" data-image="../images/c.jpg" data-image-mobile="../images/c.jpg" data-extra-height="300">
-        <div class="row">
-        <div class="col-md-12">
-            <div class="blogn">DIÁCRITICAL POINT</div>
-        </div>
-        <div class="col-md-12">
-            <div class="blogsn">The Second side of a Story.</div>
-        </div>
-        <div class="col-md-12">
-            <div class="blogdes">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </div>
-        </div>
+<div class="img-holder blog" data-image="../images/c.jpg" data-image-mobile="../images/c.jpg" data-extra-height="300">
+     <div class="row">
+        <div class="col-md-12 blogn">DIÁCRITICAL POINT</div>
+        <div class="col-md-12 blogsn">The Second side of a Story.</div>
+        <div class="col-md-12 blogdes">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
     </div>      
-  </div>
+</div>
 
  <div class="img-holder" data-image="../images/net.jpg" data-image-mobile="../images/net.jpg"></div>
  <div class="row jsbentry">
@@ -84,20 +76,16 @@ Brace all your senses because when you enter the Wazwan restaurant, which is nam
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/jquery.imageScroll.min.js"></script>
 
-<script >
-         $("html").niceScroll({styler:"fb",cursorcolor:"#c0392b", cursorwidth: '6', cursorborderradius: '10px', background: '#404040', spacebarenabled:false,  cursorborder: '', zindex: '1000'});
-    </script>
-    
+<script>$("html").niceScroll({styler:"fb",cursorcolor:"#c0392b", cursorwidth: '6', cursorborderradius: '10px', background: '#404040', spacebarenabled:false,  cursorborder: '', zindex: '1000'});</script>
+
 <script>$('.img-holder').imageScroll();</script>
 
-    <script>
-        var touch = Modernizr.touch;
+<script>       
+    var touch = Modernizr.touch;
         $('.img-holder').imageScroll({
             imageAttribute: (touch === true) ? 'image-mobile' : 'image',
             touch: touch
         });
-    </script>
-
+</script>
     
-</body>
-</html>
+</body></html>

@@ -16,11 +16,11 @@ get_header(); ?>
             </ul>
         </nav>
         <nav class="pjsocial">
-            <ul>
-                <li><a target="_blank" href="https://twitter.com/praveenjuge"><i class="fa fa-twitter"></i></a></li>
-                <li><a target="_blank" href="https://github.com/praveenjuge"><i class="fa fa-github"></i></a></li>
-                <li><a target="_blank" href="https://www.reddit.com/user/praveenjuge/"><i class="fa fa-reddit"></i></a></li>
-                <li><a target="_blank" href="https://in.linkedin.com/in/praveenjuge"><i class="fa fa-linkedin"></i></a></li>
+            <ul class="soc">
+                <li><a class="soc-twitter" target="_blank" href="https://twitter.com/praveenjuge"></a></li>
+                <li><a class="soc-github" target="_blank" href="https://github.com/praveenjuge"></a></li>
+                <li><a class="soc-reddit" target="_blank" href="https://www.reddit.com/user/praveenjuge/"></a></li>
+                <li><a class="soc-linkedin" target="_blank" href="https://in.linkedin.com/in/praveenjuge"></a></li>
             </ul>
         </nav>
     </aside>

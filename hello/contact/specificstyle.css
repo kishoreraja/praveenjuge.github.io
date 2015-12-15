@@ -1,9 +1,11 @@
-/*Page Content*/
+.pjccontent{margin:0px 50px; margin-bottom: 50px; font-size: 45px; padding: 10px 0px;
+    border-left: 4px solid #c0392b; border-right: 4px solid #c0392b;}
 
-body{min-height: 1200px;}
+.pjsmall{font-size: 30px;}
 
-.pjhello {
-    font-size: 80px;
-    padding: 40px 0px;
-    text-align: center;
+@media screen and (max-width: 62em) {
+     .pjccontent{font-size: 35px;}
+    
+    .pjhello{font-size: 50px;}
 }
+@media screen and (max-width: 28em) {.pjccontent{font-size: 14px;}}

@@ -1,42 +1,13 @@
-/*Page Content*/
+.pjborder{border: 1px solid #c0392b; border-top:0px; margin: 0px; margin-bottom: 60px;}
 
-body{
-    min-height: 1200px;
-}
+.pjimg img{max-width: 100%; max-height: 100%;}
 
-a, a:visited{
-    
-}
+.pjwtitle{padding-top: 20px; color: #27AD60;}
 
-.pjhello {
-    font-size: 80px;
-    padding: 40px 0px;
-    text-align: center;
-}
+.pjwdesc{padding: 20px 0px; text-align: left; text-indent: 40px; font-size:22px;}
 
-.pjbox {
-    padding: 0px 15px;
-    background-color: #c0392b;
-    color: white;
-}
+.pjbtn {font-size: 20px; border: 3px solid #c0392b; border-radius: 0px;
+    margin: 30px 0px; padding: 10px 0px; color: #000;}
 
-.pjboxi {
-    min-height: 400px;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image:url(../images/2.jpg);
-}
-
-.pjboxt{
-    text-align: center;
-}
-
-.pjtit{
-    padding-top: 10px;
-    text-align: center;
-}
-
-.pjtit a{
-     color:  #c0392b;
-}
+.pjbtn:hover, .pjbtn:focus, .pjbtn:active { color: #fff; background-color: #c0392b; transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out;}

@@ -1,96 +1,37 @@
-body { 
-  color: white;
-  font-size: 24px;
-}
+#tf-menu.navbar-default {background-color: #000;}
 
-#tf-menu.navbar-default {
-	background-color: rgb(0, 0, 0);
-	border-color: rgb(0,0,0);
-}
+.jssecnav{background-color: #000; margin-top: 50px; width: 100%; border: 0; text-align: center; height: 100px;}
 
-.jssecnav{
-    background-color: black;
-    margin-top: 50px;
-    width: 100%;
-    border: 0;
-    text-align: center;
-    height: 100px;
-}
+.jsnav>li>a{color: #fff;  padding: 0px; margin: 0px 20px; }
 
-.navbar-default .jsnav>li>a{color: white;  padding: 0px; margin: 0px 20px; }
+.jsbutton{padding: 40px 20px; background-color: black; border: 0; outline:0;}
 
-.jsbutton{padding: 40px 20px; background-color: transparent; border: 0; outline:0;}
+.jsbutton:active,.jsbutton.is-checked {background-color: #290b00;}
 
-.jsbutton:active,
-.jsbutton.is-checked {
-  background-color: #290b00;
-}
+.jsbutton:hover,.jsbutton:focus{color: white;}
 
-.jsbutton:hover,
-.jsbutton:focus{
-    color: white;
-}
+.jsnav,.jsnav li{display: inline-block; list-style-type: none;}
 
+.navbar .navbar-nav {float: none;}
 
-.jsnav{
-    display: inline-block;
-    list-style-type: none;
-}
-.navbar .navbar-nav {
-    float: none;
-}
+.jssphoto{margin-top: 150px;}
 
-.jsnav li{
-    display: inline-block;
-}
+.element-item,.grid-sizer{float: left;width: 25%;}
 
-.jssphoto{
-    margin-top: 150px;
-}
+.element-item img{max-width: 100%;}
 
-.element-item,
-.grid-sizer{
-    float: left;
-  width: 25%;
-}
-.element-item img{
-    max-width: 100%;
-}
+ .photo{opacity: 20; filter: alpha(opacity=4000); opacity: 0.3; filter: alpha(opacity=40);}
 
-
-/* Gallery Configuration */
-
- .photo{
-  opacity: 20;
-  filter: alpha(opacity=4000);
-  opacity: 0.3;
-  filter: alpha(opacity=40);
-}
-
-.photo:hover{
- opacity: 100;
-    -webkit-transition: opacity 0.4s;
-  -moz-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  transition: opacity 0.4s;
-}
-
-
-
+.photo:hover{opacity: 100; transition: opacity 0.4s;
+    -webkit-transition: opacity 0.4s; -moz-transition: opacity 0.4s; -o-transition: opacity 0.4s;}
 
 
 @media screen and (max-width: 70em) {
-    .jsbutton{
-        font-size: 18px;
-        padding: 40px 5px;
-    }
+    .jsbutton{font-size: 18px; padding: 40px 5px;}
 }
 
 @media screen and (max-width: 48em) {
-    .jssecnav{
-        display: none;
-    }
-    .jssphoto{
-    margin-top: 50px;
-}
+    .jssecnav{display: none;}
+    
+    .jssphoto{margin-top: 50px;}
 }

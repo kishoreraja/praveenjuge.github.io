@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/style.css">
         <link href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet" media="all" type="text/css" />
-        <link rel="stylesheet" href="../font-awesome-4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/socialfonts.css">
 
         <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>

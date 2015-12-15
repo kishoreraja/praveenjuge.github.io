@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/style.css">
     <link href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet" media="all" type="text/css" />
-    <link rel="stylesheet" href="../../font-awesome-4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/socialfonts.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -35,11 +35,11 @@
             </ul>
         </nav>
         <nav class="pjsocial">
-            <ul>
-                <li><a target="_blank" href="https://twitter.com/praveenjuge"><i class="fa fa-twitter"></i></a></li>
-                <li><a target="_blank" href="https://github.com/praveenjuge"><i class="fa fa-github"></i></a></li>
-                <li><a target="_blank" href="https://www.reddit.com/user/praveenjuge/"><i class="fa fa-reddit"></i></a></li>
-                <li><a target="_blank" href="https://in.linkedin.com/in/praveenjuge"><i class="fa fa-linkedin"></i></a></li>
+            <ul class="soc">
+                <li><a class="soc-twitter" target="_blank" href="https://twitter.com/praveenjuge"></a></li>
+                <li><a class="soc-github" target="_blank" href="https://github.com/praveenjuge"></a></li>
+                <li><a class="soc-reddit" target="_blank" href="https://www.reddit.com/user/praveenjuge/"></a></li>
+                <li><a class="soc-linkedin" target="_blank" href="https://in.linkedin.com/in/praveenjuge"></a></li>
             </ul>
         </nav>
     </aside>
@@ -82,16 +82,7 @@
 //			if ( comments_open() || get_comments_number() ) :
 //				comments_template();
 //			endif;
-       
-			// Previous/next post navigation.
-			the_post_navigation( array(
-				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'twentyfifteen' ) . '</span> ' .
-					'<span class="screen-reader-text">' . __( 'Next post:', 'twentyfifteen' ) . '</span> ' .
-					'<span class="post-title">%title</span>',
-				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'twentyfifteen' ) . '</span> ' .
-					'<span class="screen-reader-text">' . __( 'Previous post:', 'twentyfifteen' ) . '</span> ' .
-					'<span class="post-title">%title</span>',
-			) );
+
 
 		// End the loop.
 		endwhile;
