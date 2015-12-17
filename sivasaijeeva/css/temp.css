@@ -1,4 +1,4 @@
-body {overflow: hidden; background-color: black;}
+body {overflow: hidden;}
 
 .vs-slider {position: relative; height: 100vh;}
 
@@ -64,6 +64,8 @@ body {overflow: hidden; background-color: black;}
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
+.vs-vertical-nav li{list-style-type: none;}
 
 .vs-vertical-nav a {
     display: block;
