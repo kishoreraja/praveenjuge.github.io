@@ -1,0 +1,127 @@
+/*General*/
+
+body {
+    font-size: 30px;
+    color: #000000;
+    background-color: #f0f0f0;
+    font-family: 'elegant_luxmager',Georgia,Times,serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+::-moz-selection {background: #c0392b;}
+
+::selection {background: #c0392b;}
+
+a,a:visited {outline: 0; color: #fff; }
+
+a:hover, a:focus {outline: 0; color:#c0392b; text-decoration: none;transition: color .3s ease-in-out;
+    -webkit-transition: color .3s ease-in-out; -moz-transition: color .3s ease-in-out; -o-transition: color .3s ease-in-out;}
+
+img{max-width: 100%; max-height: 100%;}
+
+.green {color: #27AD60 !important;}
+
+.dullgreen {color: #A8C8B2;}
+
+.red {color: #c0392b !important;}
+
+.red::selection {background: #27AD60;}
+
+hr{border-top: 1px solid #27ad60;}
+
+/*Logo*/
+
+.pjlogo {margin: 10px; height: 125px; line-height: 115px; text-align: center;}
+
+.pjlogo1 {height: 60px;}
+
+/*Navigation*/
+
+.current {color: #27AD60 !important;}
+
+.pjnav {float: right; position: fixed; top: 0; bottom: 0; right: 0; padding: 32px; background-color: #2c3e50;}
+
+.pjnavul ul {padding: 0px; padding-top: 20px; font-size: 24px;}
+
+.pjnavul li {padding-bottom: 16px; list-style-type: none; margin: 0px; overflow: hidden; text-align: center;}
+
+.pjnavul a:hover,
+.pjsocial a:hover {
+    color: #c0392b;
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+
+.pjsocial {position: absolute; bottom: 0; left: 0; right: 0;}
+
+.pjsocial ul {list-style-type: none; padding: 0px; margin-bottom: 20px; overflow: hidden;}
+
+.pjsocial li { float: left; width: 25%;}
+
+.pjbottom {text-align: center; color: #27AD60; font-size: 18px; padding-top: 80px;}
+
+/*Global Content*/
+
+.pjhello {font-size: 80px; padding: 40px 0px;}
+
+.pjhead {font-size: 66px; padding: 50px 0px; color: #34495E; text-align: center;}
+
+.pjbtn {
+    font-size: 36px;
+    background-color: #f0f0f0;
+    border: 6px solid #27AD60;
+    margin: 40px 0px;
+    padding: 10px 0px;
+    color: #000;
+    overflow: hidden;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.pjbtn:hover,
+.pjbtn:focus,
+.pjbtn:active {
+    color: #fff;
+    background-color: #27AD60;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 62em) {
+    .pjfive{font-size: 20px;}
+    
+    .pjnav {padding: 10px; float: none; position: relative; min-height: 330px;}
+    
+    .pjnavul ul, .pjsocial ul { width: 100%; position: relative;}
+    
+    .pjnavul li, .pjsocial li { float: left; width: 25%;}
+    
+    .pjbottom {font-size: 10px;}
+    
+    .pjhead {font-size: 40px;}
+    
+    .pjlogo1 {height: 30px;}
+}
+
+@media screen and (max-width: 28em) {
+    body {font-size: 20px;}
+    
+    .pjnavul ul {font-size: 20px;}
+    
+    .pjhello{font-size: 40px;}
+    
+     .pjbottom {font-size: 8px;}
+    
+    .pjhead {font-size: 30px; padding: 10px 0px;}
+    
+    .pjlogo1 { height: 20px;}
+}

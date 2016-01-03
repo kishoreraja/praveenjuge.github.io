@@ -1,0 +1,27 @@
+.pjccontent {
+    margin: 0px 50px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    padding: 10px 0px;
+    border-left: 4px solid #c0392b;
+    border-right: 4px solid #c0392b;
+}
+
+.pjsmall {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 62em) {
+    .pjccontent {
+        font-size: 35px;
+        margin: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 28em) {
+    .pjccontent {
+        font-size: 20px;
+        margin: 0px 10px;
+    }
+    .pjsmall {font-size: 18px;}
+}

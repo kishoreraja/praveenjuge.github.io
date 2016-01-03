@@ -1,1 +1,92 @@
-#tf-menu.navbar-default {background-color: #000;}.jssecnav{background-color: #000;margin-top: 50px;width: 100%;border: 0;text-align: center;height: 100px;}.jsnav>li>a{color: #fff;padding: 0px;margin: 0px 20px;}.jsbutton{padding: 40px 20px;background-color: black;border: 0;outline:0;}.jsbutton:active,.jsbutton.is-checked {background-color: #290b00;}.jsbutton:hover,.jsbutton:focus{color: white;background-color: #290b00;transition: all 0.3s;}.jsnav,.jsnav li{display: inline-block;list-style-type: none;}.navbar .navbar-nav {float: none;}.jssphoto{margin-top: 150px;}.element-item,.grid-sizer{float: left;width: 25%;}.element-item img{max-width: 100%;}.photo{opacity: 20;filter: alpha(opacity=4000);opacity: 0.3;filter: alpha(opacity=40);}.photo:hover{opacity: 100;transition: opacity 0.4s;-webkit-transition: opacity 0.4s;-moz-transition: opacity 0.4s;-o-transition: opacity 0.4s;}@media screen and (max-width: 70em) {.jsbutton{font-size: 18px;padding: 40px 5px;}}@media screen and (max-width: 48em) {.jssecnav{display: none;}.jssphoto{margin-top: 50px;}}
+#tf-menu.navbar-default {
+    background-color: #000;
+}
+
+.jssecnav {
+    background-color: #000;
+    margin-top: 50px;
+    width: 100%;
+    border: 0;
+    text-align: center;
+    height: 100px;
+}
+
+.jsnav>li>a {
+    color: #fff;
+    padding: 0px;
+    margin: 0px 20px;
+}
+
+.jsbutton {
+    padding: 40px 20px;
+    background-color: black;
+    border: 0;
+    outline: 0;
+}
+
+.jsbutton:active,
+.jsbutton.is-checked {
+    background-color: #290b00;
+}
+
+.jsbutton:hover,
+.jsbutton:focus {
+    color: white;
+    background-color: #290b00;
+    transition: all 0.3s;
+}
+
+.jsnav,
+.jsnav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navbar .navbar-nav {
+    float: none;
+}
+
+.jssphoto {
+    margin-top: 150px;
+}
+
+.element-item,
+.grid-sizer {
+    float: left;
+    width: 25%;
+}
+
+.element-item img {
+    max-width: 100%;
+}
+
+.photo {
+    opacity: 20;
+    filter: alpha(opacity=4000);
+    opacity: 0.3;
+    filter: alpha(opacity=40);
+}
+
+.photo:hover {
+    opacity: 100;
+    transition: opacity 0.4s;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+}
+
+@media screen and (max-width: 70em) {
+    .jsbutton {
+        font-size: 18px;
+        padding: 40px 5px;
+    }
+}
+
+@media screen and (max-width: 48em) {
+    .jssecnav {
+        display: none;
+    }
+    .jssphoto {
+        margin-top: 50px;
+    }
+}

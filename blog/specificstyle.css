@@ -1,0 +1,19 @@
+.pjar {margin: 10px 30px;}
+
+.pjbtitle {font-size: 36px; margin: 0px; padding: 20px 0px;}
+
+.pjbsmall {font-size: 18px; margin: 0px; padding-bottom: 20px; color: #27ad60;}
+
+.pjbcontent {font-size: 22px; text-align: left; text-indent: 50px;}
+
+.pjbtn {font-size: 20px; border: 2px solid #c0392b; margin: 30px 0px; padding: 5px 0px;}
+
+.pjbtn:hover, .pjbtn:focus, .pjbtn:active {background-color: #c0392b;}
+
+@media screen and (max-width: 28em) {
+    .pjar {margin: 10px 5px;}
+    
+    .pjbcontent {font-size: 20px;}
+    
+    .pjbtitle {font-size: 26px;}
+}

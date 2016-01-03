@@ -1,9 +1,0 @@
-<script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-SHeW5L8n2DABhjqL
-
-<!--
-<script src="instantclick.min.js" data-no-instant></script>
-<script data-no-instant>InstantClick.init();</script>
--->
