@@ -1,1 +1,31 @@
-.pjar {margin: 10px 30px;}.pjbtitle {font-size: 36px;margin: 0px;padding: 20px 0px;}.pjbsmall {font-size: 18px;margin: 0px;padding-bottom: 20px;color: #27ad60;}.pjbcontent {padding-top: 20px;font-size: 22px;text-align: left;text-indent: 50px;}.pjbtn {font-size: 20px;border: 2px solid #c0392b;margin: 30px 0px;padding: 5px 0px;}.pjbtns {padding: 5px 20px;}.pjbtn:hover, .pjbtn:focus, .pjbtn:active {background-color: #c0392b;}.pjhimg{padding: 0px;}.pjauthor{text-align: right;padding: 20px 0px;}@media screen and (max-width: 62em) {.pjbtns{float: none !important;width: 100%;}}@media screen and (max-width: 28em) {.pjar {margin: 10px 5px;}.pjbcontent {font-size: 20px;}.pjbtitle {font-size: 26px;}}
+.pjar {margin: 10px 30px;}
+
+.pjbtitle {font-size: 36px; margin: 0px; padding: 20px 0px;}
+
+.pjbsmall {font-size: 18px; margin: 0px; padding-bottom: 20px; color: #27ad60;}
+
+.pjbcontent { padding-top: 20px; font-size: 22px; text-align: left; text-indent: 50px;}
+
+.pjbtn {font-size: 20px; border: 2px solid #c0392b; margin: 30px 0px; padding: 5px 0px;}
+
+.pjbtns {padding: 5px 20px;}
+
+.pjbtn:hover, .pjbtn:focus, .pjbtn:active {background-color: #c0392b;}
+
+.pjhimg{padding: 0px;}
+
+.pjauthor{text-align: right; padding: 20px 0px;}
+
+@media screen and (max-width: 62em) {
+    .pjbtns{float: none !important; width: 100%;}
+
+}
+
+@media screen and (max-width: 28em) {
+
+    .pjar {margin: 10px 5px;}
+
+    .pjbcontent {font-size: 20px;}
+
+    .pjbtitle {font-size: 26px;}
+}

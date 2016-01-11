@@ -16,3 +16,19 @@ git add -A
 git commit -m 'Added my project'
 git remote add origin git@github.com:scotch-io/my-new-project.git
 git push -u -f origin master
+
+    <script type='text/javascript' src='//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js' data-shr-siteid='17ed8153553883283cbc470ca9513154' data-cfasync='false' async='async'></script>
+
+  <div class='shareaholic-canvas' data-app='share_buttons' data-app-id=''></div>
+
+
+
+Software: WordPress
+Version: 3.3.1
+Installation URL: http://henceforth.in/wp
+Admin Login URL: http://henceforth.in/wp/wp-admin
+Admin uername: praveenjuge
+Admin password: sgeolmeenza
+Database Name: u840516733_mujuq
+Database Username: u840516733_zedyh
+Database Password: NeXygaBaWa
