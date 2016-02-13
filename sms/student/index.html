@@ -11,7 +11,7 @@
     <link rel="icon" href="../favicon.png">
     
     <link rel="stylesheet" href="../fonts/roboto_regular_macroman/stylesheet.css" type="text/css" charset="utf-8" />
-<!--      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
 <!--    <link href="../css/bootstrap.min.css" rel="stylesheet">-->
     <link href="../css/materialize.min.css" rel="stylesheet">
@@ -43,15 +43,15 @@
           <img class="photo" alt="My Photo" src="../images/fr-09.jpg"/>
           <span class="info">Praveen Juge - IT - II Year</span>
           </div>
-          <a class="sideactive" href="#" ><li class="side-link">Home</li></a>
-          <li class="side-link"><a href="#">Attendence</a></li>
-          <li class="side-link"><a href="#">Notes &amp; Assignments</a></li>
-          <li class="side-link"><a href="#">News &amp; Events</a></li>
-          <li class="side-link"><a href="#">Results</a></li>
-          <li class="side-link"><a href="#">Time Table</a></li>
-          <li class="side-link"><a href="#">Placement News</a></li>
-          <li class="side-link"><a href="#">Your Profile</a></li>
-          <li class="side-link"><a href="#">Settings</a></li> 
+          <a class="sideactive" href="#" ><li class="side-link"><i class="material-icons">home</i>Home</li></a>
+          <a href="#"><li class="side-link"><i class="material-icons">event_available</i>Attendence</li></a>
+          <a href="#"><li class="side-link"><i class="material-icons">book</i>Notes &amp; Assignments</li></a>
+          <a href="#"><li class="side-link"><i class="material-icons">event</i>News &amp; Events</li></a>
+          <a href="#"><li class="side-link"><i class="material-icons">assignment</i>Results</li></a>
+          <a href="#"><li class="side-link"><i class="material-icons">list</i>Time Table</li></a>
+          <a href="#"><li class="side-link"><i class="material-icons">supervisor_account</i>Placement News</li></a>
+          <a href="#"><li class="side-link"><i class="material-icons">mood</i>Your Profile</li></a>
+          <a href="#"><li class="side-link"><i class="material-icons">settings</i>Settings</li> </a>
       </ul>
 </header>
          
@@ -66,11 +66,11 @@
             <div class="card-content ">
               <span class="card-title">Recent Notifications</span>
               <div class="notfibox">
-              <p class="notfi">New Time Table Announced.</p>
-              <p class="notfi">National Conference on Application of Nanotechnology</p>
-              <p class="notfi">National Conference on Information and Intelligent Technologies NCIIT'16</p>
-              <p class="notfi">One Day Hands-on Training on Automotive Component Design</p>
-              <p class="notfi">New Time Table Announced.</p>
+              <p class="notfi"><i class="material-icons">keyboard_arrow_right</i>New Time Table Announced.</p>
+              <p class="notfi"><i class="material-icons">keyboard_arrow_right</i>National Conference on Application of Nanotechnology</p>
+              <p class="notfi"><i class="material-icons">keyboard_arrow_right</i>National Conference on Information and Intelligent Technologies NCIIT'16</p>
+              <p class="notfi"><i class="material-icons">keyboard_arrow_right</i>One Day Hands-on Training on Automotive Component Design</p>
+              <p class="notfi"><i class="material-icons">keyboard_arrow_right</i>New Time Table Announced.</p>
               </div>
             </div>
             <div class="card-action">
@@ -151,10 +151,8 @@
         $(".button-collapse").sideNav();
         
         $(document).ready(function() {
-            $('#calendar').fullCalendar({
-                
-            })
-        });
+            $('#calendar').fullCalendar({ 
+            }) });
       </script>
   </body>
 </html>
