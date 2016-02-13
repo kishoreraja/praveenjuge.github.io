@@ -15,7 +15,7 @@
     
 <!--    <link href="../css/bootstrap.min.css" rel="stylesheet">-->
     <link href="../css/materialize.min.css" rel="stylesheet">
-    
+    <link rel='stylesheet' href='../css/fullcalendar.min.css' />
     <link href="../css/style.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     
@@ -61,7 +61,7 @@
         <div class="col s12 m6">
           <div class="card blue-grey darken-1">
             <div class="card-content white-text">
-              <span class="card-title">Notifications</span>
+              <span class="card-title">Recent Notifications</span>
               <p class="notfi">New Time Table Announced.</p>
               <p class="notfi">National Conference on Application of Nanotechnology</p>
               <p class="notfi">National Conference on Information and Intelligent Technologies NCIIT'16</p>
@@ -79,6 +79,14 @@
 -->
         </div>
       </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row">
+        <div class="col m12">
+               <div id='calendar'></div>
+                </div>
+            </div>
         </div>
     </main>
     
@@ -102,8 +110,18 @@
    <script src="../js/jquery-1.10.2.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/materialize.min.js"></script>
+    <script src='../js/moment.min.js'></script>
+    <script src='../js/fullcalendar.js'></script>
     <script src="script.js"></script>
     
-    <script type="text/javascript">$(".button-collapse").sideNav();</script>
+    <script type="text/javascript">
+        $(".button-collapse").sideNav();
+        
+        $(document).ready(function() {
+            $('#calendar').fullCalendar({
+                
+            })
+        });
+      </script>
   </body>
 </html>
