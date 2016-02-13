@@ -14,11 +14,21 @@ main, footer {
 }
 }
 
+.brand-logo{
+    left: 793px !important;
+}
+
+    
+
 /*notification*/
 
 .card-title{
     border-bottom: 1px solid rgba(160,160,160,0.2);
-    
+        color: #c0392b;
+}
+
+.notfibox{
+    padding: 10px;
 }
 
 .notfi{
@@ -26,12 +36,19 @@ main, footer {
     text-align: left;
 }
 
+.card-action a{
+    font-size: 15px;
+    color: #009688 !important;
+}
+
+
+
 nav{
     background-color: #512DA8;
 }
 
 hr{
-    border-top:1px solid #000;
+    border-top:1px solid #7f8c8d;
 }
 
 .btn{
