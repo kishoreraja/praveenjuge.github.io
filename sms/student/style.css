@@ -97,7 +97,7 @@ hr{
 .photo{
     border-radius: 100px;
     height:60px;
-    margin: 0px 90px;
+    margin: 0px 100px;
 }
 
 .side-link{
@@ -124,4 +124,25 @@ hr{
     font-size: 16px;
     line-height: 50px;
     height: 56px;
+}
+
+/*Calender*/
+
+.fc-toolbar .fc-center{
+    color: #c0392b;
+}
+
+.fc-view{
+    color: #e74c3c;
+}
+
+.fc-unthemed .fc-today{
+     background-color: #bdc3c7; 
+}
+
+.fc-button-group button,
+.fc-today-button{
+    border: none;
+    border-radius: 0px !important;
+    color: #009688 !important;
 }
