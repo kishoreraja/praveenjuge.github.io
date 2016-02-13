@@ -90,6 +90,7 @@ hr{
 }
 
 .info{
+    color: #c0392b;
     font-size: 16px;
     font-weight: 700;
 }
@@ -106,7 +107,7 @@ hr{
 
 .side-nav li{
     text-align: left;
-    line-height: 50px;
+    line-height: 55px;
     padding-left: 30px;
 }
 
@@ -122,8 +123,8 @@ hr{
 
 .side-nav a{
     font-size: 16px;
-    line-height: 50px;
-    height: 56px;
+    line-height: 55px;
+    height: 55px;
 }
 
 /*Calender*/
@@ -145,4 +146,12 @@ hr{
     border: none;
     border-radius: 0px !important;
     color: #009688 !important;
+}
+
+.fc-event{
+    text-align: center;
+    padding: 3px 0px;
+    border: none;
+    border-radius: 0px;
+    background-color: #009688 !important;
 }
