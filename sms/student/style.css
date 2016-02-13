@@ -5,7 +5,7 @@ body{
 }
 
 main, footer {
-    padding-left: 240px;
+    padding-left: 260px;
 }    
 
 @media only screen and (max-width: 992px){
@@ -27,14 +27,21 @@ main, footer {
     font-size: 24px !important;
 }
 
-.notfibox{
-    padding: 10px;
+.card .card-action{
+    padding: 5px;
 }
+
+
 
 .notfi{
     padding: 5px 10px;
     text-align: left;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+.card .card-content{
+    padding: 10px 30px;
 }
 
 .card-action a{
@@ -42,7 +49,14 @@ main, footer {
     color:  #009688 !important;
 }
 
+.date{
+    font-size: 20px;
+    text-align: left;
+}
 
+.newstitle{
+    text-align: left;
+}
 
 nav{
     background-color: #512DA8;
@@ -93,7 +107,7 @@ hr{
 .side-nav li{
     text-align: left;
     line-height: 50px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 

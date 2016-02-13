@@ -117,14 +117,17 @@
         <div class="container-fluid">
             <div class="row">
         <div class="col m12">
-               <div id='calendar'></div>
+          <div class="card grey lighten-4">
+            <div class="card-content ">
+                <div id='calendar'></div>
+            </div> 
                 </div>
             </div>
         </div>
     </main>
     
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <ul class="flist">
@@ -148,7 +151,11 @@
     <script src="script.js"></script>
     
     <script type="text/javascript">
-        $(".button-collapse").sideNav();
+       $('.button-collapse').sideNav({
+      menuWidth: 260, 
+      edge: 'left'
+    }
+  );
         
         $(document).ready(function() {
             $('#calendar').fullCalendar({ 
