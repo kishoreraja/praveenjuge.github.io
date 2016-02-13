@@ -194,6 +194,13 @@ input[type="submit"]:hover{
 
 .flist li{
     display: inline-block;
-    padding:10px 30px;
+    padding:10px 10px;
 }
 
+.flist li a{
+    padding: 0 1rem;
+}
+
+.flist li a:hover{
+    color:black;
+}

@@ -25,6 +25,7 @@ main, footer {
 .card-title{
     border-bottom: 1px solid rgba(160,160,160,0.2);
         color: #c0392b;
+    font-size: 28px !important;
 }
 
 .notfibox{
@@ -34,11 +35,12 @@ main, footer {
 .notfi{
     padding: 5px 10px;
     text-align: left;
+    padding-bottom: 25px;
 }
 
 .card-action a{
     font-size: 15px;
-    color: #009688 !important;
+    color:  #009688 !important;
 }
 
 
@@ -69,7 +71,9 @@ hr{
 }
 
 .profile{
-    margin: 20px 0px;
+    padding: 20px 0px;
+    background-color: #bdc3c7;
+    margin-bottom: 10px;
 }
 
 .info{
